@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(63, 145, 63);
+    font-size: 16px;
+}
+/* Upper */
+.header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 110, 6);
+    font-size: 2rem;
+    text-shadow: 1px 1px rgb(10, 7, 7);
+
+    display: flex;
+    background-color: antiquewhite;
+    height: 140px;
+
+    margin: 0;
+
+    background-image: url("/resurssit/img/land.jpg");
+    background-position: 100% 32%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.musicButton {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+    background-color: rgba(76, 146, 76, 0.856);
+    border: 1px solid rgb(4, 75, 4);
+    color: rgb(4, 75, 4);
+    border-radius: 4px;
+    font-size: 1.3rem;
+
+    height: 70px;
+    width: 120px;
+}
+
+.nav{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 101, 58);
+    height: 35px;
+
+    font-size: 1.3rem;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.nav li {
+    list-style: none;
+
+
+    font-weight: 800;
+
+    padding: 5px 0px;
+    width: 25%;
+    float: left;
+}
+
+a {
+
+    color: rgb(70, 40, 12);
+    text-decoration: none;
+}
+
+
+/* Main */
+.mainContainer {
+
+
+    display: flex;
+    position: relative;
+
+    height: 1000px;
+    width: 90%;
+
+    margin: auto; /* makes it go center*/
+
+}
+
+.mainBox {
+    background-color: rgb(184, 107, 62);
+    position: absolute;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+
+    height: 900px;
+    width: 50%;
+
+    margin: 3% 25%;
+    border-radius: 14px 14px;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.68);
+
+    z-index: 9;
+}
+
+.textArea {
+
+    display: flex;
+
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+
+
+
+.video {
+    height: 550px;
+    width: 95%;
+
+
+
+}
+
+.button{
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(121, 74, 36);
+    border: solid rgb(59, 24, 24) 1px;
+    border-radius: 4px;
+}
+
+
+
+
+.divLeft{
+    background-color: rgb(163, 90, 47, 0.7);
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+
+    height: 900px;
+    width: 40%;
+
+    margin: 4% 2px 0px 20%;
+    border-radius: 14px 14px;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.68);
+
+    z-index: -5;
+}
+
+.divRight {
+   /* background-color: rgb(104, 51, 20, 0.7);*/
+    background-color: rgb(163, 90, 47, 0.7);
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+
+    height: 900px;
+    width: 40%;
+
+    margin: 4% 20% 0px 2px;
+    border-radius: 14px 14px;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.68);
+
+    z-index: -5;
+}
