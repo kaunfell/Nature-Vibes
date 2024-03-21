@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(63, 145, 63);
+    background-color: rgb(32, 115, 70);
     font-size: 16px;
 }
 /* Upper */
@@ -8,12 +8,12 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(6, 110, 6);
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-shadow: 1px 1px rgb(10, 7, 7);
 
     display: flex;
     background-color: antiquewhite;
-    height: 140px;
+    height: 180px;
 
     margin: 0;
 
@@ -22,20 +22,45 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.headerText{
+    
+    width: 600px;
+    height: 180px;
+
+    background-image: url("/resurssit/img/blank.png");
+    background-repeat: no-repeat;
+    background-size: 120% 200%;
+    background-position: 60% 45%;
+}
 
 .musicButton {
     position: fixed;
     bottom: 0px;
     left: 0px;
 
-    background-color: rgba(76, 146, 76, 0.856);
-    border: 1px solid rgb(4, 75, 4);
+    background-color: rgba(76, 146, 76, 0);
+    border: 1px solid rgb(4, 75, 4,0);
     color: rgb(4, 75, 4);
     border-radius: 4px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    
+    text-align: left;
 
     height: 70px;
-    width: 120px;
+    width: 130px;
+
+}
+
+.soundBlank {
+    
+    height: 70px;
+    width: 130px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("/resurssit/img/blank2.png");
+    background-size: 130% 220%;
+    background-position: 58% 45%;
 }
 
 .nav{
@@ -44,13 +69,22 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(175, 101, 58);
-    height: 35px;
+    height: 37px;
+    border-radius: 4px;
 
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
 
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    background-image: url("/resurssit/img/wood6.png");
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: 50% 10%;
 
+    
+    
 }
 
 .nav li {
@@ -62,12 +96,15 @@ body {
     padding: 5px 0px;
     width: 25%;
     float: left;
+    
 }
 
 a {
 
-    color: rgb(70, 40, 12);
+    color: rgb(56, 37, 20);
+    text-shadow: 2px 2px rgba(75, 64, 40, 0.623);
     text-decoration: none;
+    
 }
 
 
@@ -82,66 +119,112 @@ a {
     width: 90%;
 
     margin: auto; /* makes it go center*/
+    
 
 }
 
 .mainBox {
-    background-color: rgb(184, 107, 62);
+    background-color: rgba(224, 211, 197, 0.267);
+    background-image: url("/resurssit/img/wood.png");
+    background-repeat: no-repeat;
+  
+    background-blend-mode: screen; /*it does something:D*/
+    
+   
     position: absolute;
 
     display: block;
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
+    text-wrap: wrap;
+    font-size: 1.9rem;
+    font-weight: 750;
+    color:rgb(75, 39, 15);
+    text-shadow: 2px 1px rgba(75, 64, 40, 0.932);
 
     height: 900px;
     width: 50%;
 
     margin: 3% 25%;
+    border: 2.5px solid rgb(0, 0, 0, .6);
     border-radius: 14px 14px;
-    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.68);
+    box-shadow: 10px 10px 20px rgba(3, 3, 3);
 
     z-index: 9;
+
+    
+    
 }
+
 
 .textArea {
 
     display: flex;
-
+    margin-left: 15px;
+    margin-right: 15px;
     height: 160px;
     align-items: center;
     justify-content: center;
-
-   
+    background-image: url("/resurssit/img/blank3.png");
+    background-position: 100% 48.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3);
 }
 
 
-
+.videoContainer {
+    height: 75%;
+    background-image: url("/resurssit/img/forest.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
 
 .video {
     height: 550px;
     width: 95%;
-
-
+    border-radius: 14px 14px;
+ 
 
 }
 
-.button{
-    width: 60px;
+.nextButton{
+    position: absolute;
+    right: 13%;
+    top: 50%;
+
+
+
+    width: 70px;
     height: 50px;
     margin: 10px;
-    background-color: rgb(121, 74, 36);
+    background-color: rgb(121, 74, 36, .8);
     border: solid rgb(59, 24, 24) 1px;
     border-radius: 4px;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3);
 }
 
+.previousButton {
+    position: absolute;
+    left: 13%;
+    top: 50%;
 
+    width: 70px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(121, 74, 36, .8);
+    border: solid rgb(59, 24, 24) 1px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3);
+}
 
 
 .divLeft{
     background-color: rgb(163, 90, 47, 0.7);
-
+    background-image: url("/resurssit/img/wood.png");
     display: block;
     text-align: center;
     align-items: center;
@@ -153,7 +236,7 @@ a {
 
     margin: 4% 2px 0px 20%;
     border-radius: 14px 14px;
-    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.68);
+    box-shadow: 10px 10px 20px rgba(3, 3, 3);
 
     z-index: -5;
 }
@@ -161,6 +244,7 @@ a {
 .divRight {
    /* background-color: rgb(104, 51, 20, 0.7);*/
     background-color: rgb(163, 90, 47, 0.7);
+    background-image: url("/resurssit/img/wood.png");
 
     display: block;
     text-align: center;
@@ -173,7 +257,7 @@ a {
 
     margin: 4% 20% 0px 2px;
     border-radius: 14px 14px;
-    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.68);
+    box-shadow: 10px 10px 20px rgba(3, 3, 3);
 
     z-index: -5;
 }
