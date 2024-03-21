@@ -17,17 +17,17 @@ body {
 
     margin: 0;
 
-    background-image: url("/resurssit/img/land.jpg");
+    background-image: url("../../resurssit/img/land.jpg");
     background-position: 100% 32%;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 .headerText{
     
     width: 600px;
     height: 180px;
 
-    background-image: url("/resurssit/img/blank.png");
+    background-image: url("../../resurssit/img/blank.png");
     background-repeat: no-repeat;
     background-size: 120% 200%;
     background-position: 60% 45%;
@@ -58,7 +58,7 @@ body {
     position: fixed;
     bottom: 0px;
     left: 0px;
-    background-image: url("/resurssit/img/blank2.png");
+    background-image: url("../../resurssit/img/blank2.png");
     background-size: 130% 220%;
     background-position: 58% 45%;
 }
@@ -78,7 +78,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     
-    background-image: url("/resurssit/img/wood6.png");
+    background-image: url("../../resurssit/img/wood6.png");
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: 50% 10%;
@@ -125,7 +125,7 @@ a {
 
 .mainBox {
     background-color: rgba(224, 211, 197, 0.267);
-    background-image: url("/resurssit/img/wood.png");
+    background-image: url("../../resurssit/img/wood.png");
     background-repeat: no-repeat;
   
     background-blend-mode: screen; /*it does something:D*/
@@ -166,7 +166,7 @@ a {
     height: 160px;
     align-items: center;
     justify-content: center;
-    background-image: url("/resurssit/img/blank3.png");
+    background-image: url("../../resurssit/img/blank3.png");
     background-position: 100% 48.5%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +176,7 @@ a {
 
 .videoContainer {
     height: 75%;
-    background-image: url("/resurssit/img/forest.png");
+    background-image: url("../../resurssit/img/forest.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -224,7 +224,7 @@ a {
 
 .divLeft{
     background-color: rgb(163, 90, 47, 0.7);
-    background-image: url("/resurssit/img/wood.png");
+    background-image: url("../../resurssit/img/wood.png");
     display: block;
     text-align: center;
     align-items: center;
@@ -244,7 +244,7 @@ a {
 .divRight {
    /* background-color: rgb(104, 51, 20, 0.7);*/
     background-color: rgb(163, 90, 47, 0.7);
-    background-image: url("/resurssit/img/wood.png");
+    background-image: url("../../resurssit/img/wood.png");
 
     display: block;
     text-align: center;
